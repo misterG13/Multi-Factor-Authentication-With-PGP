@@ -2,6 +2,19 @@
 
 PHP-based Multi-Factor Authentication using PGP public keys for web applications.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Web Interface](#web-interface)
+  - [Programmatic](#programmatic)
+- [Project Structure](#project-structure)
+- [Guides](#guides)
+- [Author](#author)
+
 ## Overview
 
 A second form of authentication for highly secure web applications. Users generate their own PGP key pairs on a local machine. The public key is provided during sign up, eliminating the need to remember passwords and removing the liability of storing credentials on the server.
