@@ -2,6 +2,16 @@
 
 The `PGPMfa` class provides PGP-based Multi-Factor Authentication. It handles key import, MFA code generation, message encryption, and verification.
 
+## Table of Contents
+
+- [Setup](#setup)
+- [Validate a PGP Key](#validate-a-pgp-key)
+- [Read Key Information](#read-key-information)
+- [Generate and Encrypt an MFA Code](#generate-and-encrypt-an-mfa-code)
+- [Verify User Authentication](#verify-user-authentication)
+- [Complete Workflow](#complete-workflow)
+- [API Reference](#api-reference)
+
 ## Setup
 
 Include the class file and use the namespace:

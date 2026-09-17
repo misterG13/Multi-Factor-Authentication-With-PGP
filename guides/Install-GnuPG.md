@@ -2,6 +2,18 @@
 
 GnuPG (GNU Privacy Guard) is required for the `php-gnupg` extension, which this project uses for PGP encryption and key management.
 
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Debian / Ubuntu](#debian--ubuntu)
+  - [Alternative: Install via PECL](#alternative-install-via-pecl)
+- [Fedora / RHEL](#fedora--rhel)
+  - [Alternative: Install via PECL](#alternative-install-via-pecl-1)
+- [macOS](#macos)
+- [Verify Installation](#verify-installation)
+- [Windows](#windows)
+- [Resources](#resources)
+
 ## Requirements
 
 - GnuPG 2.x installed on the system
