@@ -21,7 +21,7 @@ This project uses the PHP `gnupg` extension (GNU Privacy Guard) to import, encry
 
 - PHP 8.0+ ([download](https://www.php.net/downloads))
 - php-gnupg extension ([manual](https://www.php.net/manual/en/book.gnupg.php))
-- GnuPG installed on the host system ([Install-GnuPG guide](guides/Install-GnuPG/README.md))
+- GnuPG installed on the host system ([Install-GnuPG guide](guides/Install-GnuPG.md))
 
 ## Installation
 
@@ -72,14 +72,15 @@ PGP-mfa/
 │           ├── PGPMfa.php     # MFA encryption and verification
 │           └── PGPgnupg.php   # Base GnuPG wrapper
 ├── guides/
-│   └── Install-GnuPG/         # GnuPG installation guide
+│   ├── Install-GnuPG.md       # GnuPG installation guide
+│   └── Using-PGPMfa.md        # Usage guide
 └── index.php                  # Entry point
 ```
 
 ## Guides
 
-- [Install GnuPG](guides/Install-GnuPG/README.md)
-- [Usage Examples](guides/Usage-PGPmfa/README.md)
+- [Install GnuPG](guides/Install-GnuPG.md)
+- [Usage Examples](guides/Using-PGPMfa.md)
 
 ## Author
 
